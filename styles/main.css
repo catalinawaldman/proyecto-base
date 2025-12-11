@@ -2,3 +2,17 @@
      padding: 0; 
      box-sizing: border-box;
      }
+
+     :root{
+--primary-color: #0a9c6f;
+--grey-900: #0B1516; 
+--grey-800: #0B181A;
+--grey-700: #27313B;
+--grey-500: #F2F3F5;
+--grey-600:#8B8B8A;
+--green-300: #1ED47B;
+--green-200: #DFF8CE;
+--green-button: #138b80;
+
+}
+ 
