@@ -85,3 +85,56 @@ padding: 10px;
      background-color: var(--grey-700);
      transform: translateY(-4px);
 }
+/* search input */
+.search {
+     padding: 5px;
+     background-color: var(--grey-800);
+
+     
+
+}
+.search form input {
+     width: 100%;
+     display: block;
+border: none;
+padding: 8px;
+border-radius: 10px;
+background-color: var(--grey-700);
+outline: none;
+color: white;
+}
+
+.search input:focus {
+     outline: 1px solid var(--grey-600);
+}
+
+.chats    {
+     background-color:  var(--grey-900);
+
+}
+
+.chats ul {
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+
+
+}
+
+.user-chat {
+     display: flex;
+     padding: 10px;
+align-items: center;
+gap: 10px;
+
+}
+
+.user-chat img {
+     border-radius: 50%;
+     width: 60px;
+}
+.user-chat:hover {
+     background-color: var(--grey-800);
+     cursor: pointer;
+}
