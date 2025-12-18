@@ -22,7 +22,6 @@
 body {
      background-color: var(--primary-color);
      padding: 40px;
-
 }
 
 .app {
@@ -33,7 +32,6 @@ body {
      overflow: hidden;
      border-radius: 10px;
      box-shadow: 0 12px 40px rgba(0, 0, 0, 25);
-
 }
 
 aside {
@@ -66,7 +64,6 @@ aside header {
 .profile img {
      width: 50px;
      border-radius: 50%;
-
 }
 
 .profile h2 {
@@ -81,13 +78,10 @@ aside header {
      background-color: var(--grey-800);
      color: var(--grey-500);
      transition: transform .2s;
-
 }
 
 .actions button svg {
      width: 20px;
-
-
 }
 
 .actions button:hover {
@@ -99,9 +93,6 @@ aside header {
 .search {
      padding: 5px;
      background-color: var(--grey-800);
-
-
-
 }
 
 .search form input {
@@ -172,6 +163,22 @@ aside header {
 .chat-panel {
      display: flex;
      flex-direction: column;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
 }
 
 .message {
@@ -282,6 +289,8 @@ footer .send:hover {
      transform: scale(0.9);
 }
 
+/*responsive design*/
+
 @media(max-width:880px) {
      aside {
           display: none;
@@ -291,20 +300,6 @@ footer .send:hover {
           display: flex;
           grid-template-columns: 1fr;
      }
-}
-
-.app {
-  display: flex;
-  height: 100vh;
-}
-.chat-panel {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-.messages {
-  flex: 1;
-  overflow-y: auto;
 }
 
 
