@@ -8,6 +8,7 @@ const searchChats = () => {
     for (let i = 0; i < $chats.length; i++){
         const$chat = $chats[i]
         const $titleTag = $chat.querySelector("h3")
+        const name = $titleTag
     }
 }
 
